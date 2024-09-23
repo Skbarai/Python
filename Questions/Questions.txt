@@ -1,0 +1,20 @@
+list of questions:
+1)count vowel in a given string
+2)maximum number in a list
+3)check whether the number is prime or not
+4)reverse the list
+5)find the sum of the digits of a number
+6)find Fibonacci sequence and Fibonacci number
+7)find the factorial of a number
+8)reverse a string
+9)check the number is palindrome or not
+10)merge two lists
+11)remove duplicates from a list
+12)find the second largest from a list
+12)find the frequency of number in the list
+13)flatten a list : make a function flatten(list) that performs: input [[1,2],[3,4],5] output [1,2,3,4,5]
+14)find the common element in two list
+15)append an element in a list
+16)remove an element from a list
+17)search for an element
+18)sort a list
