@@ -18,12 +18,27 @@ def day_finder(day,month,year):
     print(f)
     days=["saturday","sunday","monday","Tuesday","Wednesday","Thursday","Friday"]
     return days[f]
+    
 
+def main():
+        while True: 
+            date=input("Enter the date in format(DD-MM-YY): ").split('-')
+            day=int(date[0])
+            month=int(date[1])
+            year=int(date[2])    
+            actual_day=day_finder(day,month,year)
+            print(f"Day: {actual_day}")
+            while True:
+                choices  =['yes','y','n','no']
+                choice=input("Do you want to continue ? (y or n):").lower()
+                if choice in choices:
+                        if choice!="yes" and choice!="y":
+                         print("Exiting the program")
+                         return
+                        
+                 
+                else:
+                    print("Invalid choice ") 
+                
+main()
 
-
-date=input("Enter the date in format(DD-MM-YY): ").split('-')
-day=int(date[0])
-month=int(date[1])
-year=int(date[2])
-actual_day=day_finder(day,month,year)
-print(f"Day: {actual_day}")
